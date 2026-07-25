@@ -4,6 +4,6 @@
   "talkarea.command.disable": "TalkArea Deaktiviert",
   "talkarea.command.listen_enable": "TalkArea Zuhören aktiviert",
   "talkarea.command.listen_disable": "TalkArea Zuhören beendet",
-  "talkarea.chat.tooltip.talkarea": "Message received from %s via TalkArea, distance: %s blocks",
-  "talkarea.command.toggle_forced": "The TalkArea is forced on by the server, you cannot change it using commands."
+  "talkarea.chat.tooltip.talkarea": "Nachricht von %s via TalkArea empfangen, Entfernung: %s Blöcke",
+  "talkarea.command.toggle_forced": "TalkArea wird vom Server zwangsweise aktiviert; du kannst es nicht über Befehle ändern."
 }
