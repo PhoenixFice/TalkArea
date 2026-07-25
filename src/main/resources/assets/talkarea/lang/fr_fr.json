@@ -1,9 +1,9 @@
 {
-  "talkarea.command.info": "TalkArea est un système qui fait que seul les personnes dans un certain rayon autour de vous peuvent vous entendre parler\nVous pouvez l'activer ou le désactiver avec /talkarea toggle <true/false>\nVous pouvez définir la distance (en mètresaze) avec /talkarea distance <distance>\nVous pouvez activer ou désactiver le mode écoute avec /talkarea listen <true/false>\nLe mode écoute vous empêche d'entendre les gens en dehors de la zone de discussion (doit également avoir talkArea activé)",
-  "talkarea.command.enable_distance": "TalkArea activé, distance : %s blocs",
+  "talkarea.command.info": "TalkArea est un système qui fait que seul les personnes dans un certain rayon autour de vous peuvent vous entendre parler\nVous pouvez l'activer ou le désactiver avec /talkarea toggle <true/false>\nVous pouvez définir la distance (en mètres) avec /talkarea distance <distance>\nVous pouvez activer ou désactiver le mode écoute avec /talkarea listen <true/false>\nLe mode écoute vous empêche d'entendre les gens en dehors de la zone de discussion (doit également avoir talkArea activé)",
+  "talkarea.command.enable_distance": "TalkArea activé, distance : %s blocs",
   "talkarea.command.disable": "TalkArea désactivé",
   "talkarea.command.listen_enable": "TalkArea écoute activée",
   "talkarea.command.listen_disable": "TalkArea écoute désactivée",
-  "talkarea.chat.tooltip.talkarea": "Message reçu de %s via le TalkArea, distance : %s blocs",
+  "talkarea.chat.tooltip.talkarea": "Message recu de %s via le TalkArea, distance : %s blocs",
   "talkarea.command.toggle_forced": "Le TalkArea est activé de force par le serveur, vous ne pouvez pas le modifier via les commandes."
 }
