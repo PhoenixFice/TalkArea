@@ -3,5 +3,7 @@
   "talkarea.command.enable_distance": "TalkArea Aktiviert und Distanz auf %s Blöcke festgelegt",
   "talkarea.command.disable": "TalkArea Deaktiviert",
   "talkarea.command.listen_enable": "TalkArea Zuhören aktiviert",
-  "talkarea.command.listen_disable": "TalkArea Zuhören beendet"
+  "talkarea.command.listen_disable": "TalkArea Zuhören beendet",
+  "talkarea.chat.tooltip.talkarea": "Nachricht von %s via TalkArea empfangen, Entfernung: %s Blöcke",
+  "talkarea.command.toggle_forced": "TalkArea wird vom Server zwangsweise aktiviert; du kannst es nicht über Befehle ändern."
 }
