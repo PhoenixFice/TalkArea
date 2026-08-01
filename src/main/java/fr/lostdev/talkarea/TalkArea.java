@@ -3,6 +3,9 @@ package fr.lostdev.talkarea;
 import fr.lostdev.talkarea.command.TalkAreaCommands;
 import fr.lostdev.talkarea.config.ServerConfig;
 import fr.lostdev.talkarea.data.TalkAreaData;
+import net.neoforged.fml.loading.FMLEnvironment;
+import net.neoforged.neoforge.client.gui.ConfigurationScreen;
+import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import org.slf4j.Logger;
 
@@ -39,6 +42,11 @@ public class TalkArea {
 
         //register the config
         modContainer.registerConfig(ModConfig.Type.SERVER, ServerConfig.CONFIG_SPEC);
+
+        //if we're on client side
+        if (FMLEnvironment.dist.isClient()) {
+            modContainer.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
+        }
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
