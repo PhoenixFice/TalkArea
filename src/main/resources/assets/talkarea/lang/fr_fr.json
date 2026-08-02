@@ -9,6 +9,6 @@
   "talkarea.configuration.server": "Paramètres du serveur",
   "talkarea.configuration.force_talkarea_on_server": "Forcer le TalkArea sur le serveur",
   "talkarea.configuration.force_talkarea_on_server.tooltip": "Force le TalkArea activé pour tous les joueurs sur le serveur.",
-  "talkarea.configuration.force_talkarea_distance": "Distance du TalkArea forcé",
+  "talkarea.configuration.force_talkarea_distance": "Forced TalkArea Distance",
   "talkarea.configuration.force_talkarea_distance.tooltip": "Défini la distancer imposé aux joueurs pour le TalkArea s'il est imposé de force par le serveur."
 }
