@@ -68,7 +68,7 @@ public class ClientEvent {
 
             //if the receiver has talkarea listen toggle on, or if the message is a talkarea message, we apply the tooltip to the message
             if (event.getBoundChatType().chatType().is(ChatTypeList.TALKAREA_CHAT_TYPE) || event.getBoundChatType().chatType().is(ChatTypeList.TALKAREA_EMOTE_CHAT_TYPE)) {
-                Component tooltipText = Component.translatable("talkarea.chat.tooltip.talkarea", sender.getDisplayName(), sender.distanceTo(receiver)).withStyle(ChatFormatting.GRAY);
+                Component tooltipText = Component.translatable("talkarea.chat.tooltip.talkarea", sender.getDisplayName(), (int) sender.distanceTo(receiver)).withStyle(ChatFormatting.GRAY);
                 Style talkAreaStyle = Style.EMPTY.withFont(FontList.FONT_ICONS).withHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, tooltipText));
 
                 event.setMessage(event.getMessage().copy().withStyle(talkAreaStyle));
