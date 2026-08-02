@@ -5,5 +5,10 @@
   "talkarea.command.listen_enable": "TalkArea Zuhören aktiviert",
   "talkarea.command.listen_disable": "TalkArea Zuhören beendet",
   "talkarea.chat.tooltip.talkarea": "Nachricht von %s via TalkArea empfangen, Entfernung: %s Blöcke",
-  "talkarea.command.toggle_forced": "TalkArea wird vom Server zwangsweise aktiviert; du kannst es nicht über Befehle ändern."
+  "talkarea.command.toggle_forced": "TalkArea wird vom Server zwangsweise aktiviert; du kannst es nicht über Befehle ändern.",
+  "talkarea.configuration.server": "Server Settings",
+  "talkarea.configuration.force_talkarea_on_server": "Force TalkArea on Server",
+  "talkarea.configuration.force_talkarea_on_server.tooltip": "Forces TalkArea to be enabled for all players on the server.",
+  "talkarea.configuration.force_talkarea_distance": "TalkArea Distance",
+  "talkarea.configuration.force_talkarea_distance.tooltip": "Sets the distance for TalkArea if forced on the server."
 }
