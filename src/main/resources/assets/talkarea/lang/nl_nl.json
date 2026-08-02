@@ -5,5 +5,10 @@
   "talkarea.command.listen_enable": "TalkArea luisteren aan",
   "talkarea.command.listen_disable": "TalkArea luisteren uit",
   "talkarea.chat.tooltip.talkarea": "Bricht ontvangen van %s via praatgebied, aftstand: %s blokken",
-  "talkarea.command.toggle_forced": "Het praatgebied is geforceerd door de server, je kan dit op dit moment niet veranderen met commandos."
+  "talkarea.command.toggle_forced": "Het praatgebied is geforceerd door de server, je kan dit op dit moment niet veranderen met commandos.",
+  "talkarea.configuration.server": "Server Settings",
+  "talkarea.configuration.force_talkarea_on_server": "Force TalkArea on Server",
+  "talkarea.configuration.force_talkarea_on_server.tooltip": "Forces TalkArea to be enabled for all players on the server.",
+  "talkarea.configuration.force_talkarea_distance": "TalkArea Distance",
+  "talkarea.configuration.force_talkarea_distance.tooltip": "Sets the distance for TalkArea if forced on the server."
 }
