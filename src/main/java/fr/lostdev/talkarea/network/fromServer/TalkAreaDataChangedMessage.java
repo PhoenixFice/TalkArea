@@ -8,6 +8,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
+import org.jetbrains.annotations.NotNull;
 
 public record TalkAreaDataChangedMessage(boolean talkareaToggle, int distance, boolean talkareaListenToggle) implements CustomPacketPayload {
     public static final CustomPacketPayload.Type<TalkAreaDataChangedMessage> TYPE =
@@ -21,7 +22,7 @@ public record TalkAreaDataChangedMessage(boolean talkareaToggle, int distance, b
     );
 
     @Override
-    public Type<? extends CustomPacketPayload> type() {
+    public @NotNull Type<? extends CustomPacketPayload> type() {
         return TYPE;
     }
 

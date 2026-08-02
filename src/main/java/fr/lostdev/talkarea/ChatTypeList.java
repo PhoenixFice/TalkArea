@@ -7,12 +7,12 @@ import net.minecraft.resources.ResourceLocation;
 
 public class ChatTypeList {
 
-    public static ResourceKey<ChatType> TALKAREA_CHAT_TYPE = ResourceKey.create(
+    public static final ResourceKey<ChatType> TALKAREA_CHAT_TYPE = ResourceKey.create(
             Registries.CHAT_TYPE,
             ResourceLocation.fromNamespaceAndPath(TalkArea.MODID, "talkarea_chat_type")
     );
 
-    public static ResourceKey<ChatType> TALKAREA_EMOTE_CHAT_TYPE = ResourceKey.create(
+    public static final ResourceKey<ChatType> TALKAREA_EMOTE_CHAT_TYPE = ResourceKey.create(
             Registries.CHAT_TYPE,
             ResourceLocation.fromNamespaceAndPath(TalkArea.MODID, "talkarea_emote_chat_type")
     );
